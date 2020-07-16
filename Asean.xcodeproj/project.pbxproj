@@ -15,6 +15,8 @@
 		096921C124BE806A008A0392 /* Country.swift in Sources */ = {isa = PBXBuildFile; fileRef = 096921C024BE806A008A0392 /* Country.swift */; };
 		096921C324BE808E008A0392 /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 096921C224BE808E008A0392 /* DataManager.swift */; };
 		096921C524BE87B5008A0392 /* AseanTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 096921C424BE87B5008A0392 /* AseanTableViewController.swift */; };
+		096921CB24BEBEF4008A0392 /* AseanTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 096921CA24BEBEF4008A0392 /* AseanTableViewCell.swift */; };
+		09F7FEC024C094F7004C6A5B /* NavBarColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09F7FEBF24C094F7004C6A5B /* NavBarColor.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +30,8 @@
 		096921C024BE806A008A0392 /* Country.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Country.swift; sourceTree = "<group>"; };
 		096921C224BE808E008A0392 /* DataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
 		096921C424BE87B5008A0392 /* AseanTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AseanTableViewController.swift; sourceTree = "<group>"; };
+		096921CA24BEBEF4008A0392 /* AseanTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AseanTableViewCell.swift; sourceTree = "<group>"; };
+		09F7FEBF24C094F7004C6A5B /* NavBarColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavBarColor.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,6 +69,8 @@
 				096921C024BE806A008A0392 /* Country.swift */,
 				096921C224BE808E008A0392 /* DataManager.swift */,
 				096921C424BE87B5008A0392 /* AseanTableViewController.swift */,
+				096921CA24BEBEF4008A0392 /* AseanTableViewCell.swift */,
+				09F7FEBF24C094F7004C6A5B /* NavBarColor.swift */,
 				096921B224BE7C67008A0392 /* Main.storyboard */,
 				096921B524BE7C69008A0392 /* Assets.xcassets */,
 				096921B724BE7C69008A0392 /* LaunchScreen.storyboard */,
@@ -145,9 +151,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				096921C124BE806A008A0392 /* Country.swift in Sources */,
+				09F7FEC024C094F7004C6A5B /* NavBarColor.swift in Sources */,
 				096921C524BE87B5008A0392 /* AseanTableViewController.swift in Sources */,
 				096921C324BE808E008A0392 /* DataManager.swift in Sources */,
 				096921AD24BE7C67008A0392 /* AppDelegate.swift in Sources */,
+				096921CB24BEBEF4008A0392 /* AseanTableViewCell.swift in Sources */,
 				096921AF24BE7C67008A0392 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -299,7 +307,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.erbe.Asean;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.erbe.Asean-Final";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -317,7 +325,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.erbe.Asean;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.erbe.Asean-Final";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
